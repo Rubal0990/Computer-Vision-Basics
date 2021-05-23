@@ -1,11 +1,11 @@
 import cv2
 
-### Image
-img = cv2.imread("Resources/lena.png")
+# Image
+img = cv2.imread("./Resources/lena.png")
 cv2.imshow("Lena", img)
 cv2.waitKey(1000)
 
-### Video
+# Video
 frameWidth = 640
 frameHeight = 480
 
