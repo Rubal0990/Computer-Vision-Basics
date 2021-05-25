@@ -12,7 +12,7 @@ print(img2.shape)
 img1 = cv2.resize(img1, (0, 0), None, 0.5, 0.5)
 img2 = cv2.resize(img2, (0, 0), None, 0.5, 0.5)
 
-# Converting image from BGR-Image to Gray-Image
+# Converting image from BGR-Image to GrayScale-Image
 img1 = cv2.cvtColor(img1, cv2.COLOR_GRAY2BGR)
 
 # Stacking the images
