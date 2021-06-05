@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 
 # Reading image
-img1 = cv2.imread('./Resources/lena.png', 0)
-img2 = cv2.imread('./Resources/lena.png')
+img1 = cv2.imread('./../Resources/lena.png', 0)
+img2 = cv2.imread('./../Resources/lena.png')
 print(img1.shape)
 print(img2.shape)
 

@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Reading Image
-img = cv2.imread('Resources/chess.jpg')
+img = cv2.imread('./../Resources/chess.jpg')
 
 # Parameters
 width, height = 250, 350

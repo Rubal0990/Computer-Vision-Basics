@@ -6,6 +6,7 @@ import numpy as np
 circles = np.zeros((4, 2), np.int)
 counter = 0
 
+
 # Function to detect click and drawing a green circle
 def mousePoints(event, x, y, flags, params):
     global counter
@@ -16,7 +17,7 @@ def mousePoints(event, x, y, flags, params):
 
 
 # Reading Image
-img = cv2.imread('Resources/chess.jpg')
+img = cv2.imread('./../Resources/chess.jpg')
 
 while True:
 

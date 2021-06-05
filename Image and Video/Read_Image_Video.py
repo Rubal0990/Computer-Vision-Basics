@@ -2,7 +2,7 @@
 import cv2
 
 # Reading image
-img = cv2.imread("./Resources/lena.png")
+img = cv2.imread("./../Resources/lena.png")
 cv2.imshow("Lena", img)
 cv2.waitKey(1000)
 

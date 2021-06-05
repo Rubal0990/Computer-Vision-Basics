@@ -4,7 +4,7 @@ import numpy as np
 kernel = np.ones((5, 5), np.uint8)
 print(kernel)
 
-img = cv2.imread("Resources/lena.png")
+img = cv2.imread("./../Resources/lena.png")
 
 # Direct-GrayScale
 imgDGS = cv2.imread("lena.jpg", 0)

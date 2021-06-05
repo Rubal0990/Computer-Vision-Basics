@@ -2,15 +2,15 @@
 import cv2
 
 # Reading image
-img = cv2.imread("./Resources/lena.png")
-print(img.shape)
+img = cv2.imread("./../Resources/lena.png")
+# print(img.shape)
 
 # Parameter for Image-sizing
 width, height = 1000, 1000
 
 # Resizing the image
 imgResize = cv2.resize(img, (width, height))
-print(imgResize.shape)
+# print(imgResize.shape)
 
 # Cropping the image
 imgCropped = img[300:540, 0:512]
