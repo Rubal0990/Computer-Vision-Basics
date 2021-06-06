@@ -21,7 +21,7 @@ cap.set(4, frameHeight)
 while True:
     success, img = cap.read()
     cv2.imshow("Cam", img)
-    
+
     # img = cv2.resize(img, (frameWidth, frameHeight))
     # cv2.imshow("Image", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
